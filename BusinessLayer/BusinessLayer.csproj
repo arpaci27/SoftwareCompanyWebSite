@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
+    <ProjectReference Include="..\SoftwareCompanyWebSite\SoftwareCompanyWebSite.csproj" />
+  </ItemGroup>
+
 </Project>
