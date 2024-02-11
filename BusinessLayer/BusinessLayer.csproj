@@ -24,4 +24,8 @@
     <ProjectReference Include="..\SoftwareCompanyWebSite\SoftwareCompanyWebSite.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ValidationRules\" />
+  </ItemGroup>
+
 </Project>
