@@ -22,8 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DataAccesLayer\DataAccesLayer.csproj" />
     <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
-    <ProjectReference Include="..\SoftwareCompanyWebSite\SoftwareCompanyWebSite.csproj" />
   </ItemGroup>
 
 </Project>
