@@ -9,7 +9,8 @@ namespace SoftwareCompanyWebSite.ViewComponents.Default
         HighlightManager highlightManager = new HighlightManager(new EfHighlightDal());
         public IViewComponentResult Invoke()
         {
-            var values = highlightManager.TGetList();
+            //var values = highlightManager.TGetList();
+            //ViewBag.image1 = HighlightManager.get
             return View();
         }
     }
