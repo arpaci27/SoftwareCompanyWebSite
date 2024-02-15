@@ -9,8 +9,7 @@ namespace SoftwareCompanyWebSite.ViewComponents.Default
         HighlightManager highlightManager = new HighlightManager(new EfHighlightDal());
         public IViewComponentResult Invoke()
         {
-            var values = HighlightManager.TGet//Listeyi çağır işte
-
+            var values = highlightManager.TGetList();
             return View();
         }
     }
