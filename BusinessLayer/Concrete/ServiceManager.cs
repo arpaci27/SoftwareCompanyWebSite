@@ -30,7 +30,7 @@ namespace BusinessLayer.Concrete
 
         public Service TGetByID(int id)
         {
-            throw new NotImplementedException();
+            return _serviceDal.GetByID(id);
         }
 
         public List<Service> TGetList()

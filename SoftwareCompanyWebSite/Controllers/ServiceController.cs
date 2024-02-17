@@ -18,7 +18,8 @@ namespace SoftwareCompanyWebSite.Controllers
         [HttpGet]
         public IActionResult Details(int id)
         {
-            return View();
+            var values = serviceManager.TGetByID(id);
+            return View(values);
         }
 
         [HttpPost]

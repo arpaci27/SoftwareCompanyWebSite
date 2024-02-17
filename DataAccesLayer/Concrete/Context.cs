@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DataAccesLayer.Concrete
-{
+{//
     public class Context: DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
