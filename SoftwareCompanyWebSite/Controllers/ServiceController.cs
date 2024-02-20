@@ -18,6 +18,7 @@ namespace SoftwareCompanyWebSite.Controllers
         [HttpGet]
         public IActionResult Details(int id)
         {
+            ViewBag.i= id;
             var values = serviceManager.TGetByID(id);
             return View(values);
         }
