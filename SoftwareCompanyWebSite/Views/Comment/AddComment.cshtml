@@ -4,7 +4,7 @@
     <p class="mb-4">
         Your email address will not be published. Required fields are marked *
     </p>
-    <form method="post">
+    <form method="post" asp-action="AddComment" asp-controller="Comment">
 
         <div class="form-group">
             <textarea name="CommentContent" class="form-control" placeholder="Your Comment*" required=""
@@ -17,7 +17,7 @@
                        required="">
             </div>
             <div class="form-group col-lg-6">
-                <input type="text" name="ServiceID" class="form-control" placeholder="ServiceID*" required="">
+                <input type="hidden" name="ServiceID" value="@ViewBag.i" class="form-control" placeholder="ServiceID*" required="">
             </div>
         </div>
 
