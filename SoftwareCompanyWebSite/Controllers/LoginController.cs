@@ -13,7 +13,7 @@ namespace SoftwareCompanyWebSite.Controllers
         }
         //[HttpPost]
         //public IActionResult SignUp()
-        //{
+        //{s
         //    return View();
         //}
         [HttpGet]
